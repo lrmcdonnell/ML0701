@@ -1,0 +1,19 @@
+name: 10701-env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - toolz
+  - matplotlib
+  - pandas
+  - pip
+  - pytorch
+  - pip:
+    - gradescope-utils==0.5.0
+    - regex
+    - transformers
+    - pyarrow
+    - fastparquet
+    - sklearn
